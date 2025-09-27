@@ -35,6 +35,16 @@ backend/mvnw.cmd
 
 # Application properties with sensitive data (keep templates)
 backend/src/main/resources/application-prod.properties
+backend/src/main/resources/application-dev.properties
+
+# Environment variables (NEVER commit these!)
+.env
+.env.local
+.env.prod
+backend/.env
+backend/.env.local
+backend/.env.prod
+backend/.env.dev
 
 # Claude Code
 .claude/
